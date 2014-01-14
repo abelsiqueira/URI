@@ -1,7 +1,7 @@
 all: compile run purge
 
 compile:
-	g++ -o main main.cpp -ggdb -lm -lcrypt -pipe -ansi -DONLINE_JUDGE
+	g++ -o main main.cpp -ggdb -lm -lcrypt -O2 -pipe -ansi -DONLINE_JUDGE
 
 run:
 	./runtests.sh
