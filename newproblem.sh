@@ -6,3 +6,5 @@ touch "$problem"/STATUS
 echo $problem >> "$problem"/STATUS
 echo "---------------------------" >> "$problem"/STATUS
 cp templates/* "$problem"
+cd "$problem"
+
